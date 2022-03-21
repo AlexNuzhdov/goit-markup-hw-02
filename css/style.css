@@ -10,6 +10,11 @@
 /*цвет фона about us #F5F4FA;*/
 
 
+body{
+    font-family: Roboto,sans-serif;
+}
+
+
 /* цвет логотипа */
 .logo{
     color: var(--accent-color);
@@ -27,4 +32,13 @@
 .button {
     background-color: var(--accent-color);
     color:#FFFFFF;
+}
+
+
+
+
+
+/*site-nav портфолио*/
+.contact{
+    color: var(--title-text-color);
 }
