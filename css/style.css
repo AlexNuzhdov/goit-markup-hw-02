@@ -3,42 +3,85 @@
 --primary-text-color:#212121;
 --title-text-color:#757575;
 --accent-color:#2196F3;
+--contact-footer-text-color: rgba(255, 255, 255, 0.6);
+--secondary-color: #FFFFFF;
 }
-
-/*Цвет фона header #FFFFFF;*/
-/*цвет фона main #E5E5E5;*/
-/*цвет фона about us #F5F4FA;*/
 
 
 body{
+    
     font-family: Roboto,sans-serif;
 }
 
 
-/* цвет логотипа */
+/* Лого */
 .logo{
-    color: var(--accent-color);
+    color: var(--primary-text-color);
+    font-family: Raleway,sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
 }
 
-/* site-nav */
-.site-nav {
-     color:var(--primary-text-color);
+/* Site-nav */
+.link{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,07;
+    letter-spacing: 0.02em;
+ 
 }
+
+
+/* site-nav hover */
 .site-nav .link:hover, 
 .site-nav .link:focus{
     color:#2196F3;
 }
-/*button*/
-.button {
-    background-color: var(--accent-color);
-    color:#FFFFFF;
+
+/* Нero*/
+.hеro-title {
+    color: var(--secondary-color);
+    background-color: var(--primary-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,4;
+    text-align: center;
+
 }
 
 
 
 
-
-/*site-nav портфолио*/
-.contact{
+/*основной цвет contact*/
+.contact-items .item {
     color: var(--title-text-color);
 }
+
+.contact-items .item:hover,
+.contact-items .item:focus{
+  color: #2196F3;
+}
+
+/*button*/
+.button {
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,87;
+}
+
+.button.primary{
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
+}
+
+
+
+
+
+
+
