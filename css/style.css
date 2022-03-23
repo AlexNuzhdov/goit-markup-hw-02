@@ -60,12 +60,30 @@ body{
 /*основной цвет contact*/
 .contact-items .item {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
+
+
+
 
 .contact-items .item:hover,
 .contact-items .item:focus{
   color: #2196F3;
+}
+
+/* footer aside*/
+.aside .item {
+    color: var(--title-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,7;
+    letter-spacing: 0.03em;
+
+    text-decoration: none;
 }
 
 /*button*/
@@ -129,15 +147,24 @@ body{
 
 }
 
-.asaide .item {
+/*project portfolio*/
+.project .title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project .text {
     color: var(--title-text-color);
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1,7;
+    font-size: 16px;
+    line-height: 1,89;
     letter-spacing: 0.03em;
 
-    text-decoration: none;
 }
+
 
 
 
