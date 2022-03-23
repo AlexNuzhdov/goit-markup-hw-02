@@ -3,7 +3,7 @@
 --primary-text-color:#212121;
 --title-text-color:#757575;
 --accent-color:#2196F3;
---contact-footer-text-color: rgba(255, 255, 255, 0.6);
+--contact-footer-text-color: rgba(112, 38, 38, 0.6);
 --secondary-color: #FFFFFF;
 }
 
@@ -22,6 +22,8 @@ body{
     font-size: 26px;
     line-height: 1,19;
     letter-spacing: 0.03em;
+
+    text-decoration: none;
 }
 
 /* Site-nav */
@@ -31,9 +33,12 @@ body{
     font-size: 14px;
     line-height: 1,07;
     letter-spacing: 0.02em;
+
+    text-decoration: none;
+
+    
  
 }
-
 
 /* site-nav hover */
 .site-nav .link:hover, 
@@ -52,12 +57,10 @@ body{
 
 }
 
-
-
-
 /*основной цвет contact*/
 .contact-items .item {
     color: var(--title-text-color);
+    text-decoration: none;
 }
 
 .contact-items .item:hover,
@@ -77,8 +80,64 @@ body{
 .button.primary{
     color: var(--secondary-color);
     background-color: var(--accent-color);
+    
 }
 
+/*feature-list*/
+.feature-list .title{
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.03em;  
+}
+
+.feature-list .text {
+   color:  var(--title-text-color);
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1,7px;
+   letter-spacing: 0.03em;
+}
+
+/* About-us*/
+.about-us-list .title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,17;
+    text-align: center;
+    letter-spacing: 0.03em;
+   
+}
+
+.our-team .caption {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;  
+
+}
+
+.our-team .text {
+    color: var(--title-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;  
+
+}
+
+.asaide .item {
+    color: var(--title-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,7;
+    letter-spacing: 0.03em;
+
+    text-decoration: none;
+}
 
 
 
