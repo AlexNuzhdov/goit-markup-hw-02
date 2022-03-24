@@ -9,7 +9,7 @@
 
 
 body{
-    
+    color: var(--primary-text-color);
     font-family: Roboto,sans-serif;
 }
 
@@ -25,6 +25,10 @@ body{
 
     text-decoration: none;
 }
+.color {
+    color: var(--accent-color);
+}
+
 
 /* Site-nav */
 .link{
@@ -36,8 +40,6 @@ body{
 
     text-decoration: none;
 
-    
- 
 }
 
 /* site-nav hover */
@@ -53,7 +55,7 @@ body{
     font-weight: 900;
     font-size: 44px;
     line-height: 1,4;
-    text-align: center;
+   
 
 }
 
@@ -68,16 +70,16 @@ body{
 }
 
 
-
-
 .contact-items .item:hover,
 .contact-items .item:focus{
   color: #2196F3;
 }
 
+
 /* footer aside*/
 .aside .item {
     color: var(--title-text-color);
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1,7;
@@ -86,20 +88,16 @@ body{
     text-decoration: none;
 }
 
-/*button*/
-.button {
+.aside .item:hover,
+.aside .item:focus {
+  color: #2196F3;
+}
+.colortext{
+    background-color: var(--primary-text-color);
     color: var(--secondary-color);
-    background-color: var(--accent-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1,87;
+
 }
 
-.button.primary{
-    color: var(--secondary-color);
-    background-color: var(--accent-color);
-    
-}
 
 /*feature-list*/
 .feature-list .title{
@@ -107,7 +105,8 @@ body{
     font-weight: 700;
     font-size: 14px;
     line-height: 1,14;
-    letter-spacing: 0.03em;  
+    letter-spacing: 0.03em; 
+   
 }
 
 .feature-list .text {
@@ -118,13 +117,12 @@ body{
    letter-spacing: 0.03em;
 }
 
-/* About-us*/
-.about-us-list .title {
+/* Заголовки Feature и About us */
+.heading {
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1,17;
-    text-align: center;
     letter-spacing: 0.03em;
    
 }
@@ -165,9 +163,31 @@ body{
 
 }
 
+.block ul li {
+    list-style: none;
+}
 
 
+.button-div{
+   display: inline-block;
+   border: 2px solid;
+   padding: 1px 18px;
+   background-color: #2196F3;
+   cursor: pointer;
+   
+   
+}
+.button-text{
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,89;
+    letter-spacing: 0.06em;
 
-
+}
+.button-div:hover{
+    background-color: black;
+    color: black;
+}
 
 
